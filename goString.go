@@ -5,7 +5,7 @@ import "fmt"
 
 // 这里给fmt.Println起个别名，因为下面我们会多处使用。
 var p = fmt.Println
-
+//https://www.jianshu.com/p/c62ebccca79d
 func main() {
 
 	// 下面是strings包里面提供的一些函数实例。注意这里的函数并不是
@@ -17,14 +17,15 @@ func main() {
 	p("Contains:  ", s.ContainsAny("test", "as"))//ContainsAny 判断字符串 test 中是否包含 as 中的任何一个字符，如果 chars 为空，则返回 false
 
 
-
-	p("Contains:  ", s.ContainsRune("test", rune("")))//这里边当然是字符串中是否包含rune类型，其中rune类型是utf8.RUneCountString可以完整表示全部Unicode字符的类型
+	//rune中只能是单引号并且只有一个string
+	p("Contains:  ", s.ContainsRune("test", rune('我')))//这里边当然是字符串中是否包含rune类型，其中rune类型是utf8.RUneCountString可以完整表示全部Unicode字符的类型
+	p("Contains:  ", s.ContainsRune("我中国", 99))//这里边当然是字符串中是否包含rune类型，其中rune类型是utf8.RUneCountString可以完整表示全部Unicode字符的类型
 
 
 	p("Count:     ", s.Count("test", "t"))//获取存在的个数，返回int
 	p("HasPrefix: ", s.HasPrefix("test", "te"))
 	p("HasSuffix: ", s.HasSuffix("test", "st"))
-	p("Index:     ", s.Index("test", "e"))
+	p("Index:     ", s.Index("test", "e"))//这个函数是查找字符串，然后返回当前的位置，输入的都是string类型，然后int的位置信息。
 	p("Join:      ", s.Join([]string{"a", "b"}, "-"))
 	p("Repeat:    ", s.Repeat("a", 5))
 	p("Replace:   ", s.Replace("foo", "o", "0", -1))
