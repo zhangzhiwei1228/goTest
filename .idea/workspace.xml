@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96a10d67-ae00-4781-b7c5-0b97778aa5de" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/goDefer.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goStringBase64.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goStringFormatPrint.go" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/goStringSort.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/goJson.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/goLineFilters.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/goPanic.go" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/goXieChengGoroutine.go" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/goString.go" afterPath="$PROJECT_DIR$/goString.go" />
+      <change beforePath="$PROJECT_DIR$/goDefer.go" afterPath="$PROJECT_DIR$/goDefer.go" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,85 +25,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test20180828.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test20180828.go">
+      <file leaf-file-name="goPanic.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/goPanic.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+            <state relative-caret-position="289">
+              <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
               <folding>
-                <element signature="e#14#26#0" expanded="true" />
+                <element signature="e#85#96#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="goString.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/goString.go">
+      <file leaf-file-name="file.go" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/os/file.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="335">
-              <caret line="35" column="7" lean-forward="true" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
-              <folding>
-                <element signature="e#14#45#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="482">
+              <caret line="384" column="0" lean-forward="true" selection-start-line="384" selection-start-column="0" selection-end-line="384" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="goStringFormatPrint.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/goStringFormatPrint.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="85" column="18" lean-forward="true" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="18" />
-              <folding>
-                <element signature="e#14#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="goStringSort.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/goStringSort.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="47" column="20" lean-forward="true" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
-              <folding>
-                <element signature="e#14#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="goStringBase64.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/goStringBase64.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="130">
-              <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-              <folding>
-                <element signature="e#78#119#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="goDefer.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="goDefer.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/goDefer.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+            <state relative-caret-position="170">
+              <caret line="10" column="47" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="47" />
               <folding>
                 <element signature="e#14#38#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test20180903.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test20180903.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1394">
-              <caret line="86" column="5" lean-forward="false" selection-start-line="86" selection-start-column="5" selection-end-line="86" selection-end-column="5" />
-              <folding>
-                <element signature="e#13#55#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -140,6 +90,11 @@
         <option value="$PROJECT_DIR$/goStringSort.go" />
         <option value="$PROJECT_DIR$/goStringBase64.go" />
         <option value="$PROJECT_DIR$/goDefer.go" />
+        <option value="$PROJECT_DIR$/goJson.go" />
+        <option value="$PROJECT_DIR$/goLineFilters.go" />
+        <option value="$PROJECT_DIR$/goXieCheng.go" />
+        <option value="$PROJECT_DIR$/goXieChengGoroutine.go" />
+        <option value="$PROJECT_DIR$/goPanic.go" />
       </list>
     </option>
   </component>
@@ -203,61 +158,61 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build goDefer.go">
-    <configuration name="go build goDefer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+  <component name="RunManager" selected="Go Build.go build goPanic.go">
+    <configuration name="go build goJson.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="test20180829" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/goDefer.go" />
+      <filePath value="$PROJECT_DIR$/goJson.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
-    <configuration name="go build goStringBase64.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+    <configuration name="go build goLineFilters.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="test20180829" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/goStringBase64.go" />
+      <filePath value="$PROJECT_DIR$/goLineFilters.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
-    <configuration name="go build goStringFormatPrint.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+    <configuration name="go build goPanic.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="test20180829" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/goStringFormatPrint.go" />
+      <filePath value="$PROJECT_DIR$/goPanic.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
-    <configuration name="go build goStringSort.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+    <configuration name="go build goXieChengGoroutine.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="test20180829" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/goStringSort.go" />
+      <filePath value="$PROJECT_DIR$/goXieChengGoroutine.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
-    <configuration name="go build goString.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+    <configuration name="go build goXieCheng.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="test20180829" />
       <working_directory value="$PROJECT_DIR$/" />
       <go_parameters value="-i" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/goString.go" />
+      <filePath value="$PROJECT_DIR$/goXieCheng.go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Go Build.go build goString.go" />
-      <item index="1" class="java.lang.String" itemvalue="Go Build.go build goStringFormatPrint.go" />
-      <item index="2" class="java.lang.String" itemvalue="Go Build.go build goStringSort.go" />
-      <item index="3" class="java.lang.String" itemvalue="Go Build.go build goStringBase64.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Build.go build goDefer.go" />
+      <item index="0" class="java.lang.String" itemvalue="Go Build.go build goJson.go" />
+      <item index="1" class="java.lang.String" itemvalue="Go Build.go build goLineFilters.go" />
+      <item index="2" class="java.lang.String" itemvalue="Go Build.go build goXieCheng.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Build.go build goXieChengGoroutine.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Build.go build goPanic.go" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Build.go build goDefer.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Build.go build goStringBase64.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Build.go build goStringSort.go" />
-        <item index="3" class="java.lang.String" itemvalue="Go Build.go build goStringFormatPrint.go" />
-        <item index="4" class="java.lang.String" itemvalue="Go Build.go build goString.go" />
+        <item index="0" class="java.lang.String" itemvalue="Go Build.go build goPanic.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Build.go build goXieChengGoroutine.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Build.go build goXieCheng.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Build.go build goLineFilters.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Build.go build goJson.go" />
       </list>
     </recent_temporary>
   </component>
@@ -441,12 +396,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/goDefer.go">
+    <entry file="file://$PROJECT_DIR$/goJson.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="96" column="17" lean-forward="true" selection-start-line="96" selection-start-column="17" selection-end-line="96" selection-end-column="17" />
+          <folding>
+            <element signature="e#14#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goLineFilters.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="18" lean-forward="true" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+          <folding>
+            <element signature="e#14#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goXieChengGoroutine.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <element signature="e#113#166#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goDefer.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="47" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="47" />
           <folding>
             <element signature="e#14#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/go/1.10.3/libexec/src/os/file.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="384" column="0" lean-forward="true" selection-start-line="384" selection-start-column="0" selection-end-line="384" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goPanic.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <folding>
+            <element signature="e#85#96#0" expanded="true" />
           </folding>
         </state>
       </provider>
